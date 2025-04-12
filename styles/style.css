@@ -1,0 +1,105 @@
+*,html {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFF5E1;
+    color: #2D2D2D;
+}
+
+/* Header - Navigation Bar */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-container ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    /* max-width: 1200px; */
+    margin: 0 4rem;
+    padding: 3rem 3rem;
+}
+
+.hero-teks {
+    max-width: 600px;
+    margin-left: 2rem;
+}
+
+.hero-teks h2 {
+    font-family: "Poppins" , sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.hero-teks h3 {
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.hero-img img {
+    width: 600px;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* display: flex; */
+}
+
+.btn-hero {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 1rem 2rem;
+    background-color: #f7c948;
+    border-radius: 10px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Section - Content */
+
+.about-fanta {
+    background-color: #fdf3df;
+    /* background-color: #e99e9e; */
+    padding: 3rem;
+    margin-top: 2rem;
+    font-family: "Poppins" , sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-fanta h2 {
+    font-weight: 700;
+}
+
+.about-fanta h3 {
+    font-weight: 500;
+    max-width: 600px;
+    text-align: center;
+}
+
+.varian-rasa img {
+    width: 10%;
+}
