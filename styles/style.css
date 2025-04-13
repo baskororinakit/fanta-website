@@ -2,10 +2,11 @@
     /* margin: 0;
     padding: 0; */
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-    background-color: #FFF5E1;
+    /* background-color: #FFF5E1; */
     color: #2D2D2D;
 }
 
@@ -25,6 +26,11 @@ body {
     gap: 2rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
+}
+
+.main-container a {
+    text-decoration: none;
+    color: #2D2D2D;
 }
 
 /* Hero Section */
@@ -59,8 +65,8 @@ body {
 
 .hero-img img {
     width: 600px;
-    /* max-width: 100%; */
-    /* height: auto; */
+    max-width: 100%;
+    height: auto;
     /* display: flex; */
 }
 
@@ -79,7 +85,7 @@ body {
 /* Section - Content */
 
 .about-fanta {
-    background-color: #fdf3df;
+    /* background-color: #fdf3df; */
     /* background-color: #e99e9e; */
     padding: 3rem;
     margin-top: 2rem;
@@ -102,4 +108,98 @@ body {
 
 .varian-rasa img {
     width: 10%;
+}
+
+/* Container Card */
+.varian-rasa {
+    /* background-color: #f5ebd8; */
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    padding-top: 8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card Style */
+.card {
+    font-family: "Poppins" , sans-serif;
+    background: #FFFDF9;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.varian-rasa h2 {
+    font-weight: 500;
+}
+
+.varian-rasa h3 {
+    font-weight: 500;
+    max-width: 600px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin: 10px 0 5px;
+    color: #FF6F00;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #3A3A3A;
+    margin: 0 0 10px;
+}
+
+.card h3 {
+    color: #2b6777;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 1.2rem;
+    color: orange;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #FF6F00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: 	#FF4081;
+}
+
+@media (max-width: 600px) {
+    .card h2 {
+        font-size: 1.2rem;
+    }
+    .card p {
+        font-size: 0.8rem;
+    }
+    .card h3 {
+        font-size: 1rem;
+    }
 }
